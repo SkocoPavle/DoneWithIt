@@ -8,18 +8,21 @@ export default function App() {
     <View style={{
       backgroundColor: "#fff",
       flex: 1,
-      flexDirection: 'row',
+      flexDirection: 'row', // gorizontal
+      justifyContent: "center", // main
+      alignItems: 'center', // secondary
     }}>
       <View style = {{
         backgroundColor: "dodgerblue",
         width: 100,
-        height: 100,
+        height: 300,
+        alignSelf: "flex-start",
       }}/>
       
       <View style = {{
         backgroundColor: "yellow",
         width: 100,
-        height: 100,
+        height: 200,
       }}/>
 
       <View style = {{
